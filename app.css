@@ -1,0 +1,55 @@
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  margin: 0;
+}
+#background-img {
+  background-image: url('http://www.deliciouslywell.com/wp-content/uploads/2012/11/IMG_0619.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-position: center; 
+}
+#title {
+  padding: 17px 0;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+}
+#email-form {
+  background: rgba(255,255,255,0.8);
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 40px 60px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+#form-title {
+  color: #517a67;
+  text-align: center;
+  font-size: 36px;
+}
+#soupliments-tagline {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+#email-input {
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #D6D6D6;
+  width: 56%;
+  height: 40px;
+  padding: 5px;
+  font-size: 22px;
+}
