@@ -129,7 +129,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #7F4098;
 }
 
 .navbar-default .nav > li>a,
@@ -193,7 +193,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #7F4098;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -624,7 +624,20 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.btn-artichoke {
+.product-title-container {
+  color: white;
+  padding-left: 40px;
+  font-family: "BrandonPrinted2";
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+.product-title {
+  font-size: 56px;
+}
+.product-title-ingredients {
+  font-size: 24px;
+}
+.btn-artichoke, .artichoke-title {
   background-color: #438D46;
 }
 .btn-aubergine {
@@ -666,6 +679,17 @@ footer {
 .btn-spicy:hover {
   background-color: #c60c34;
 }
+.product-image-main {
+  width: 100%;
+}
+.product-description-wrapper {
+  background-color: #F5F5F5;
+}
+.description-intro {
+  text-transform: uppercase;
+  color: #616161;
+}
+
 @media(max-width:900px) {
   #testimonial-background {
     background-position: center;
