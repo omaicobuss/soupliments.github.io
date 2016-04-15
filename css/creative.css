@@ -9,9 +9,44 @@ body {
     width: 100%;
     height: 100%;
 }
+@font-face {
+  font-family: "BrandonGrotesque";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Brandon Grotesque/BrandonGrotesque-regular.otf") format("opentype");
+  src: url("../fonts/Brandon Grotesque/BrandonGrotesque-regular.otf?#iefix") format("opentype");
+}
+@font-face {
+  font-family: "BrandonGrotesque";
+  font-style: bold;
+  font-weight: bold;
+  src: url("../fonts/Brandon Grotesque/BrandonGrotesque-Bold.otf") format("opentype");
+  src: url("../fonts/Brandon Grotesque/BrandonGrotesque-Bold.otf?#iefix") format("opentype");
+}
+@font-face {
+  font-family: "BrandonGrotesque";
+  font-style: lighter;
+  font-weight: lighter;
+  src: url("../fonts/Brandon Grotesque/BrandonGrotesque-Light.otf") format("opentype");
+  src: url("../fonts/Brandon Grotesque/BrandonGrotesque-Light.otf?#iefix") format("opentype");
+}
+@font-face {
+  font-family: "BrandonPrinted";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Brandon Printed/BrandonPrinted-One.ttf")  format('truetype');
+  src: url("../fonts/Brandon Printed/BrandonPrinted-One.ttf?#iefix")  format('truetype');
+}
+@font-face {
+  font-family: "BrandonPrinted2";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Brandon Printed/BrandonPrinted-Two.ttf")  format('truetype');
+  src: url("../fonts/Brandon Printed/BrandonPrinted-Two.ttf?#iefix")  format('truetype');
+}
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'BrandonGrotesque','Helvetica','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -488,6 +523,7 @@ body {
 .browse-food {
   text-align: center;
   font-size: 66px;
+  font-weight: bold;
 }
 #about {
   padding: 40px 0;
@@ -499,15 +535,24 @@ body {
 .product-description {
   text-align: center;
   font-style: italic;
-  margin: 30px 0;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  min-height: 80px;
 }
 .btn-marin {
   display: block;
   margin: 0 auto;
   color: white;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
+.btn-marin:hover {
+  color: white;
 }
 .product-container {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 .transparent-overlay-darker {
   width: 100%;
@@ -532,9 +577,10 @@ body {
 }
 .i-love-food {
   font-size: 58px;
+  font-weight: bold;
 }
 .testimonial-quote {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: lighter;
   margin-top: 40px;
   margin-bottom: 54px;
@@ -542,6 +588,7 @@ body {
 .testimonial-name {
   font-size: 22px;
   margin-bottom: 8px;
+  font-weight: bold;
 }
 .testimonial-location {
   font-size: 22px;
@@ -576,6 +623,48 @@ footer {
 #services {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.btn-artichoke {
+  background-color: #438D46;
+}
+.btn-aubergine {
+  background-color: #834A93;
+}
+.btn-babaghanoush {
+  background-color: #F58220;
+}
+.btn-caper {
+  background-color: #C7A92F;
+}
+.btn-chimi {
+  background-color: #88AC2E;
+}
+.btn-lemon {
+  background-color: #FFCB08;
+}
+.btn-spicy {
+  background-color: #ED1846;
+}
+.btn-artichoke:hover {
+  background-color: #1f6922;
+}
+.btn-aubergine:hover {
+  background-color: #5e246e;
+}
+.btn-babaghanoush:hover {
+  background-color: #df6b08;
+}
+.btn-caper:hover {
+  background-color: #a78910;
+}
+.btn-chimi:hover {
+  background-color: #698c12;
+}
+.btn-lemon:hover {
+  background-color: #deb004;
+}
+.btn-spicy:hover {
+  background-color: #c60c34;
 }
 @media(max-width:900px) {
   #testimonial-background {
