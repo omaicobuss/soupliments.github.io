@@ -521,6 +521,7 @@ body {
   text-align: center;
   color: white;
   /*height: 550px;*/
+  background-repeat: no-repeat;
   background-position: center;
   background-position: 50% -190px;
   background-position-x: 50% !important;
@@ -575,6 +576,22 @@ footer {
 #services {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+@media(max-width:900px) {
+  #testimonial-background {
+    background-position: center;
+    background-position: 50% 50%;
+    background-position-x: 50% !important;
+    background-position-y: 50% !important;
+  }
+}
+@media(max-width:767px) {
+  .contact-info-header {
+    margin-top: 50px;
+  }
+  .contact-header {
+    margin-bottom: 15px;
+  }
 }
 @media(min-width:768px) {
   .full-height {
