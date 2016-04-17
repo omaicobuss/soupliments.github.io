@@ -13,7 +13,6 @@
     <link REL="SHORTCUT ICON" HREF="http://maringourmet.net/favicon.ico">
     <meta name="keywords" content="Marin Gourmet, Aubergine spread, all natural, no additives, no preservatives, delicious, Gourmet, Vegan, vegetarian, crackers, dips,fresh ingredients, produce,Mediterranean, Local,Appetizers, Tastes,Hors d'oeuvres, Homemade, Spreads, Vegetables, Artisan,pasta, Marinade, Retail, quality, natural gourmet products,"/>
     <meta name="description" content="Marin Gourmet is a family owned local farmer's market company that specializes in locally grown vegan and vegetarian dips, marinades and crackers. We've  created elegant yet versatile mix that help you create many healthy yet gourmet appetizers, snacks and meals. Call: (415)457-8888"/>
-  
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -28,7 +27,11 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-
+    <style>
+      div[class^="col-"], div[class*="col-"] {
+        padding: 0;
+      }
+    </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -81,32 +84,110 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
+    <div>
+      <img src="img/TheFarm_Hero_TopNav_Crop.jpg" style="height: 50px; width: 100%;" />
+    </div>
     <div id="product-container">
-        <div class="container-fluid">
-            <div class="row full-product-container" style="margin-top: 60px;">
-              <div class="product-title-container artichoke-title">
-                <div class="product-title">ARTICHOKE</div>
-                <div class="product-title-ingredients">WITH OLIVES, CAPERS & GARLIC</div>
-              </div>
-              <div class="col-md-5 col-sm-12 col-xs-12 product-image-wrapper">
-                <img src="img/product_images/Artichoke_Product.png" class="product-image-main" />
-              </div>
-              <div class="col-md-5 col-sm-6 col-xs-12">
-                <div class="product-description-wrapper">
-                  <div class="product-description-wrapper">
-                    <span class="description-intro">
-                      Our artichoke spread
-                    </span>
-                    <span class="remain-description">
-                      is tasty and vegan! Artichoke hearts, olives, capers and fire roasted garlic makes this spread burst with flavor. Warmed up, it can be mixed into mashed potatoes for a delicious side dish. Toss it into cold or hot pasta and sprinkle with your favorite cheese for a fantastic new entree idea. It’s great for adding distinctive flavors to just about everything—sandwiches, brushetta, grilled meats, artisan cheeses, pizza and more! Pair with our own Double Baked Crackers and a glass of wine.
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-5 col-sm-6 col-xs-12 product-information-wrapper"></div>
-            </div>
+      <div class="container-fluid" id="artichoke-container">
+        <div class="row">
+          <div class="product-title-container artichoke-title">
+            <div class="product-title">ARTICHOKE</div>
+            <div class="product-title-ingredients">WITH OLIVES, CAPERS & GARLIC</div>
+          </div>
         </div>
+        <div class="row full-product-container">
+          <div class="col-md-5 col-sm-12 col-xs-12 product-image-wrapper">
+            <img src="img/product_images/Artichoke_Product.png" class="product-image-main" />
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 product-description-content single-produce-node">
+            <div class="product-description-wrapper">
+              <span class="description-intro">
+                Our artichoke spread
+              </span>
+              <span class="remaining-description">
+                is tasty and vegan! Artichoke hearts, olives, capers and fire roasted garlic makes this spread burst with flavor. Warmed up, it can be mixed into mashed potatoes for a delicious side dish. Toss it into cold or hot pasta and sprinkle with your favorite cheese for a fantastic new entree idea. It’s great for adding distinctive flavors to just about everything—sandwiches, brushetta, grilled meats, artisan cheeses, pizza and more! Pair with our own Double Baked Crackers and a glass of wine.
+              </span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 product-information-wrapper single-produce-node">
+            <div class="ingredients-servings-wrapper">
+              <div class="serving-suggestions">
+                <div class="serving-suggestions-header">Serving suggestions:</div>
+                <ul>
+                  <li>As a spread on a French baguette</li>
+                  <li>Mix with cold or hot pasta</li>
+                  <li>Mix into mashed potatoes</li>
+                  <li>Mix into cream cheese</li>
+                  <li>Paired with a glass of wine</li>
+                </ul>
+              </div>
+              <div class="serving-sizes">
+                <div class="serving-sizes-header">Sizes:</div>
+                <ul>
+                  <li>Mighty Mini: .5 - 1 oz</li>
+                  <li>Mini: 1.5 - 2 oz</li>
+                  <li>Small: 7.5 oz</li>
+                  <li>Medium: 14 oz</li>
+                  <li>Addict: 16 oz</li>
+                  <li>Party : 5 lbs</li>
+                  <li>Commercial: 1 gallon</li>
+                  <li>Institutional: 30 gallon</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id="aubergine-container">
+        <div class="row">
+          <div class="product-title-container aubergine-title">
+            <div class="product-title">AUBERGINE</div>
+            <div class="product-title-ingredients">FIRE ROASTED EGGPLANT & GARLIC</div>
+          </div>
+        </div>
+        <div class="row full-product-container">
+          <div class="col-md-5 col-sm-12 col-xs-12 product-image-wrapper">
+            <img src="img/product_images/Aubergine_Product.png" class="product-image-main" />
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 product-description-content single-produce-node">
+            <div class="product-description-wrapper">
+              <span class="description-intro">
+                OUR AUBERGINE SPREAD
+              </span>
+              <span class="remaining-description">
+                tasty, vegan and gluten free! Made from an old family recipe that offers distinct smoky garlic flavor combined with several varieties of mesquite grilled eggplants. It tastes great tossed with hot or cold pasta, add Parmesan and fresh vegetables and enjoy. Spread on artisan breads, sprinkle with your favorite cheese and chopped nuts like pecans or walnuts and you have created a sensational hors d’oeuvres. Glaze or marinade your favorite meat, poultry or fish to enhance grilled food. Aubergine is a healthy substitute for butter and mayonnaise. And, it is a versatile stuffing for Porta Bella mushrooms, tomatoes or chicken breasts. Pair with our own Double Baked Crackers and a glass of wine.
+              </span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 product-information-wrapper single-produce-node">
+            <div class="ingredients-servings-wrapper">
+              <div class="serving-suggestions">
+                <div class="serving-suggestions-header">Serving suggestions:</div>
+                <ul>
+                  <li>As a spread on a French baguette</li>
+                  <li>Mixed with pasta and goat cheese</li>
+                  <li>As a topping for a baked potato</li>
+                  <li>Mixed into a tofu dish</li>
+                  <li>Paired with a glass of wine</li>
+                </ul>
+              </div>
+              <div class="serving-sizes">
+                <div class="serving-sizes-header">Sizes:</div>
+                <ul>
+                  <li>Mighty Mini: .5 - 1 oz</li>
+                  <li>Mini: 1.5 - 2 oz</li>
+                  <li>Small: 7.5 oz</li>
+                  <li>Medium: 14 oz</li>
+                  <li>Addict: 16 oz</li>
+                  <li>Party : 5 lbs</li>
+                  <li>Commercial: 1 gallon</li>
+                  <li>Institutional: 30 gallon</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="testimonial">
       <div id="testimonial-background">
