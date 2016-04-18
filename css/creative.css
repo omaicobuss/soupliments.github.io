@@ -689,6 +689,12 @@ footer {
 }
 .product-description-wrapper {
   background-color: #F5F5F5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 40px;
 }
 .description-intro {
   text-transform: uppercase;
@@ -702,8 +708,19 @@ footer {
 .product-information-wrapper, .ingredients-servings-wrapper {
   background-color: #F1E9D7;
 }
+.ingredients-servings-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 40px;
+}
+.serving-sizes-header, .serving-suggestions-header {
+  font-weight: bold;
+}
 .single-product-node {
-  height: 410px;
+  height: 447px;
 }
 @media(max-width:900px) {
   #testimonial-background {
