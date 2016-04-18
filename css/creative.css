@@ -68,7 +68,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #7F4098;
+    text-decoration: none;
 }
 
 h1,
@@ -622,7 +623,7 @@ footer {
 }
 #services {
   padding-top: 50px;
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
 }
 .product-title-container {
   color: white;
@@ -700,6 +701,9 @@ footer {
 }
 .product-information-wrapper, .ingredients-servings-wrapper {
   background-color: #F1E9D7;
+}
+.single-product-node {
+  height: 410px;
 }
 @media(max-width:900px) {
   #testimonial-background {
