@@ -88,7 +88,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #7F4098;
+  /*background-color: #7F4098;*/
 }
 
 .bg-dark {
@@ -525,9 +525,11 @@ body {
   text-align: center;
   font-size: 66px;
   font-weight: bold;
+  padding: 40px 10px;
 }
 #about {
-  padding: 40px 0;
+  padding: 0;
+  color: white;
 }
 .product-logo {
   width: 100%;
@@ -625,6 +627,13 @@ footer {
   padding-top: 50px;
   /*padding-bottom: 50px;*/
 }
+#jagged-purple {
+  background-image: url('../img/Purple_Jagged_Bar.png');
+  background-size: cover;
+  height: 100%;
+  background-repeat-y: no-repeat;
+  background-position: bottom;
+}
 .product-title-container {
   color: white;
   padding-left: 40px;
@@ -632,6 +641,10 @@ footer {
   font-family: "BrandonPrinted2";
   padding-top: 20px;
   padding-bottom: 32px;
+  background-size: cover;
+  height: 100%;
+  background-repeat-y: no-repeat;
+  background-position: bottom;
 }
 .product-title {
   font-size: 56px;
@@ -641,6 +654,10 @@ footer {
 }
 .btn-artichoke, .artichoke-title {
   background-color: #438D46;
+}
+.artichoke-title {
+  background-color: white;
+  background-image: url('../img/jagged_banners/Artichoke-Jagged-Desk.png');
 }
 .btn-aubergine, .aubergine-title {
   background-color: #834A93;
@@ -740,6 +757,10 @@ footer {
   .product-title-container {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .browse-food {
+    font-size: 36px;
+    padding: 20px 10px;
   }
 }
 @media(min-width:768px) {
