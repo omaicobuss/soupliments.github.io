@@ -645,6 +645,7 @@ footer {
   height: 100%;
   background-repeat-y: no-repeat;
   background-position: bottom;
+  background-color: white;
 }
 .product-title {
   font-size: 56px;
@@ -652,12 +653,8 @@ footer {
 .product-title-ingredients {
   font-size: 24px;
 }
-.btn-artichoke, .artichoke-title {
+.btn-artichoke {
   background-color: #438D46;
-}
-.artichoke-title {
-  background-color: white;
-  background-image: url('../img/jagged_banners/Artichoke-Jagged-Desk.png');
 }
 .btn-aubergine, .aubergine-title {
   background-color: #834A93;
@@ -697,6 +694,27 @@ footer {
 }
 .btn-spicy:hover {
   background-color: #c60c34;
+}
+.artichoke-title {
+  background-image: url('../img/jagged_banners/Artichoke-Jagged-Desk.png');
+}
+.aubergine-title {
+  background-image: url('../img/jagged_banners/Aubergine-Jagged-Desk.png');
+}
+.baba-title {
+  background-image: url('../img/jagged_banners/BabaGhanoush-Jagged-Desk.png');
+}
+.caper-title {
+  background-image: url('../img/jagged_banners/CaperHummus-Jagged-Desk.png');
+}
+.chimi-title {
+  background-image: url('../img/jagged_banners/Chimichurri-Jagged-Desk.png');
+}
+.lemon-title {
+  background-image: url('../img/jagged_banners/LemonHummus-Jagged-Desk.png');
+}
+.spicy-title {
+  background-image: url('../img/jagged_banners/SpicyHummus-Jagged-Desk.png');
 }
 .product-image-main {
   width: 100%;
