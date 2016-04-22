@@ -27,7 +27,11 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-
+    <style>
+      div[class^="col-"], div[class*="col-"] {
+        padding: 0;
+      }
+    </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,14 +63,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Marin Gourmet</a>
+                <a class="navbar-brand page-scroll" href="index.html">Marin Gourmet</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#services">Products</a>
+                        <a class="page-scroll" href="index.html">Home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Find a Store</a>
@@ -80,97 +84,36 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <header>
-      <div class="transparent-overlay full-height">
-        <div class="header-content">
-            <div class="header-content-inner">
-              <img src="img/MarinGourmet_Seal.png" id="marin-seal" />
+    <div>
+      <img src="img/TheFarm_Hero_TopNav_Crop.jpg" style="height: 50px; width: 100%;" />
+    </div>
+    <div id="story-container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12 story-col" style="position: relative">
+            <div class="story-wrapper vert-horiz-center">
+              <div class="our-story-header">Our Story</div>
+              <div class="est-header">&bull;EST 1985&bull;</div>
+              <div class="family-owned-header">Family owned and made in Marin</div>
+              <div class="marin-story">
+                MARIN GOURMET’S “farm to table” philosophy began over twenty years ago with founder and matriarch, Affi.  It was her passion to create fresh, gourmet healthy foods while capturing the phenomenal flavors of the Mediterranean, from where she immigrated over thirty years ago.  Today the Northern California Company is run by Affi’s son.  Marin Gourmet remains a Bay Area family business committed to creating all natural, fresh vegetarian products made from fresh ingredients, mostly local produce, grown right here in the Bay Area. 
+              </div>
             </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 story-col">
+            <img src="img/Girl_VegetableBasket.jpg" class="veggie-girl" />
+          </div>
         </div>
       </div>
-    </header>
-
-    <section class="" id="about">
-      <div id="jagged-purple">
-        <div class="container browse-food">
-          BROWSE OUR FOOD
-        </div>
-      </div>
-    </section>
-
-    <div id="services">
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div> -->
-        <div class="container">
-            <div class="row">
-              <div class="col-md-4 col-sm-6 col-xs-12 product-container">
-                <img src="img/product labels/Artichoke_Label.png" class="product-logo"/>
-                <div class="product-description">"A wonderful mix of artichoke hearts, olives, capers and fire roasted garlic makes this spread burst with flavor."</div>
-                <a href="products.html">
-                  <button class="btn btn-marin btn-artichoke">LEARN MORE</button>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12 product-container">
-                <img src="img/product labels/Aubergine_Label.png" class="product-logo"/>
-                <div class="product-description">"Made from an old family recipe that offers distinct smokey garlic flavor combine with several varieties of mesquite grilled eggplants."</div>
-                <a href="products.html#aubergine-container">
-                  <button class="btn btn-marin btn-aubergine">LEARN MORE</button>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12 product-container">
-                <img src="img/product labels/BabaGhanoush_Label.png" class="product-logo"/>
-                <div class="product-description">"Baba Ghanoush is our distinctly mediterranean spread that combines mesquite grilled eggplant, garbanzo beans and fresh lemons."</div>
-                <a href="products.html#baba-container">
-                  <button class="btn btn-marin btn-babaghanoush">LEARN MORE</button>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12 product-container">
-                <img src="img/product labels/CaperHummus_Label.png" class="product-logo"/>
-                <div class="product-description">"Sprouted our own garbanzo beans, we use fresh lemon juice and capers instead of oil to create a spread that is nutritious, low fat and savory."</div>
-                <a href="products.html#caper-container">
-                  <button class="btn btn-marin btn-caper">LEARN MORE</button>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12 product-container">
-                <img src="img/product labels/Chimichurri_Label.png" class="product-logo"/>
-                <div class="product-description">"A tasty pesto made with cilantro, parsley, roasted almonds and garlic that is a staple in Argentina and around the world."</div>
-                <a href="products.html#chimi-container">
-                  <button class="btn btn-marin btn-chimi">LEARN MORE</button>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12 product-container">
-                <img src="img/product labels/LemonHummus_Label.png" class="product-logo"/>
-                <div class="product-description">"Just three ingredients – our own sprouted garbanzo beans, tahini and lemon juice – producing a creamy, fresh hummus with a citrus taste."</div>
-                <a href="products.html#lemon-container">
-                  <button class="btn btn-marin btn-lemon">LEARN MORE</button>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-4 product-container">
-                <img src="img/product labels/SpicyHummus_Label.png" class="product-logo"/>
-                <div class="product-description">"A zesty twist on our milder hummus, we mix our sprouted garbanzo beans with local chili peppers to create this fiery dip."</div>
-                <a href="products.html#spicy-container">
-                  <button class="btn btn-marin btn-spicy">LEARN MORE</button>
-                </a>
-              </div>
-            </div>
-        </div>
     </div>
     <div id="testimonial">
-      <div id="testimonial-background">
-        <div class="transparent-overlay-darker testimonial-wrapper">
+      <div id="story-background">
+        <div class="transparent-overlay-darker testimonial-wrapper story-fresh-wrapper">
           <div class="container">
             <div class="row">
-              <div class="i-love-food col-md-12">PEOPLE <i class="fa fa-heart-o" aria-hidden="true"></i> THE TASTE</div>
-              <div class="testimonial-quote col-md-6 col-md-offset-3">"Their food is the main reason I visit the farmer's market at the SF Ferry Building. I LOVE LOVE LOVE their falafels and hummus!"</div>
-              <div class="testimonial-name col-md-12">STEPHANIE</div>
-              <div class="testimonial-location col-md-12">Brentwood, CA</div>
+              <div class="story-fresh">
+                "Producing fresh, healthy, and innovative products. Available at  select northern California markets and your local farmer's markets."
+              </div>
             </div>
           </div>
         </div>
@@ -213,6 +156,11 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/jquery.matchHeight-min.js"></script>
+    <script>
+    $(function() {
+      $('.story-col').matchHeight();
+    });
+    </script>
     <script src="js/wow.min.js"></script>
 
     <!-- Custom Theme JavaScript -->

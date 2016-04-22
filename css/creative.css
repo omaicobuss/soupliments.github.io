@@ -575,6 +575,19 @@ body {
   background-position-x: 50% !important;
   background-position-y: -190px !important;
 }
+#story-background {
+  background-image: url('../img/HummusAndPita_Crop.jpg');
+  background-size: cover;
+  width: 100vw;
+  text-align: center;
+  color: white;
+  /*height: 550px;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-position: 50% -190px;
+  background-position-x: 50% !important;
+  background-position-y: -190px !important;*/
+}
 .testimonial-wrapper {
   padding: 50px 0;
 }
@@ -757,6 +770,7 @@ footer {
 .single-product-node {
   height: 447px;
 }
+
 @media(max-width:900px) {
   #testimonial-background {
     background-position: center;
@@ -833,7 +847,62 @@ footer {
 .col-bottom {
   vertical-align: bottom;
 }
-
+.veggie-girl {
+  width: 100%;
+}
+.vert-horiz-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#story-container {
+  text-align: center;
+}
+.story-wrapper {
+  width: 60%;
+}
+.our-story-header {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.est-header {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.family-owned-header {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.marin-story {
+  letter-spacing: 1px;
+}
+.story-fresh {
+  width: 50%;
+  font-size: 40px;
+  display: block;
+  margin: 0 auto;
+  font-style: italic;
+}
+.story-fresh-wrapper {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+@media(max-width: 1000px) {
+  .story-fresh {
+    width: 80%;
+  }
+}
+@media(max-width: 500px) {
+  .story-fresh {
+    width: 94%;
+    font-size: 25px;
+  }
+}
 @media (min-width: 480px) {
   .row-xs-height {
     display: table;
@@ -902,7 +971,6 @@ footer {
     vertical-align: bottom;
   }
 }
-
 @media (min-width: 1200px) {
   .row-lg-height {
     display: table;
