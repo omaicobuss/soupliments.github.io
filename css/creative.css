@@ -930,6 +930,9 @@ footer {
   .contact-section-wrapper {
     width: 80%;
   }
+  .contact-section-wrapper:last-child {
+    margin-top: 0;
+  }
 }
 @media(max-width: 500px) {
   .story-fresh {
@@ -940,6 +943,9 @@ footer {
     width: 90%;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .contact-section-wrapper:last-child {
+    margin-top: 0;
   }
 }
 @media (min-width: 480px) {
