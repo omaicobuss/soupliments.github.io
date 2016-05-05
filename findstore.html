@@ -76,10 +76,10 @@
                         <a class="page-scroll" href="products.html">Products</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="findstore.html">Find a Store</a>
+                        <a class="page-scroll" href="#services">Find a Store</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="contact.html">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -90,33 +90,42 @@
     <div>
       <img src="img/TheFarm_Hero_TopNav_Crop.jpg" style="height: 50px; width: 100%;" />
     </div>
-    <div id="story-container">
+    <div id="contact-info-container">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 col-sm-12 col-xs-12 story-col" style="position: relative">
-            <div class="story-wrapper vert-horiz-center" id="tallest-node">
-              <div class="our-story-header">Our Story</div>
-              <div class="est-header">&bull;EST 1985&bull;</div>
-              <div class="family-owned-header">Family owned and made in Marin</div>
-              <div class="marin-story">
-                MARIN GOURMET’S philosophy of “Farm to Table” began over twenty years ago with founder and matriarch, Affi. It was her passion to create fresh, gourmet healthy foods while capturing the phenomenal flavors of the Mediterranean, from where she immigrated over thirty years ago. Today, staff trained by Affi keep her dream of fresh, clean food alive. Marin Gourmet remains a Bay Area family business committed to creating all natural, vegetarian products made from fresh ingredients, mostly local produce, grown right here in Northern California.
+          <div class="col-md-6 col-sm-6 col-xs-12 contact-col" style="position: relative">
+            <div class="contact-section-wrapper">
+              <div class="contact-card">
+                <div class="get-in-touch-text">GET IN TOUCH</div>
+                <div class="intesested-contact">Interested in carrying Marin Gourmet in your store, school or office? Send us and email and we'll respond shortly!</div>
+                <div class="contact-address-wrapper">
+                  <div class="address-section">PO Box 10008</div>
+                  <div class="address-section">San Rafael, California 94912</div>
+                </div>
+                <div class="contact-phone-email-wrapper">
+                  <div class="cotact-phone-email"><strong>P: </strong> (415) 457-8888</div>
+                  <div class="cotact-phone-email"><strong>E: </strong> Sadi - <a href="mailto:goalasooo@msn.com" target="_top">goalasooo@msn.coml</a></div>
+                  <div class="cotact-phone-email"><strong>E: </strong> Shari - <a href="mailto:goalasooo@msn.com" target="_top">shari_maringourmet@yahoo.com</a></div>
+                  <div class="cotact-phone-email"><strong>E: </strong> Hadi - <a href="mailto:goalasooo@msn.com" target="_top">hadi@maringourmet.net</a></div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12 col-xs-12 story-col" id="veggie-girl-wrapper">
-            <img src="img/Girl_VegetableBasket.jpg" class="veggie-girl" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="testimonial">
-      <div id="story-background">
-        <div class="transparent-overlay-darker testimonial-wrapper story-fresh-wrapper">
-          <div class="container">
-            <div class="row">
-              <div class="story-fresh">
-                "Producing fresh, healthy, and innovative products. Available at  select northern California markets and your local farmer's markets."
-              </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 contact-col">
+            <div class="contact-section-wrapper">
+              <div class="get-in-touch-text">JOIN OUR MAILING LIST</div>
+              <div class="signup-contact">Sign up for updates and promotions</div>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <button type="submit" class="btn btn-warning btn-block">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -161,20 +170,8 @@
     <script src="js/jquery.matchHeight-min.js"></script>
     <script>
       $(function() {
-        $('.story-col').matchHeight({byRow: false});
+        $('.story-col').matchHeight();
       });
-      var $tallestNode = $('#tallest-node');
-      var $heightCheck = $('#height-check');
-      var $imageNode = $($('.veggie-girl')[0]);
-      var checkForTallestColumn = function() {
-        if ($tallestNode.height() + 80 > $imageNode.height()) {
-          $('.story-col').css('height', $tallestNode.height() + 80);
-        }
-      }
-      checkForTallestColumn();
-      $.fn.matchHeight._afterUpdate = function(event, groups) {
-          checkForTallestColumn();
-      }
     </script>
     <script src="js/wow.min.js"></script>
 

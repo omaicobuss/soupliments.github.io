@@ -60,12 +60,16 @@ hr.light {
 }
 
 a {
-    color: #7F4098;
+    color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
-
+.btn {
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
 a:hover,
 a:focus {
     color: #7F4098;
