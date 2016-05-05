@@ -93,8 +93,8 @@
     <div id="story-container">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12 story-col" style="position: relative">
-            <div class="story-wrapper vert-horiz-center">
+          <div class="col-md-6 col-sm-12 col-xs-12 story-col" style="position: relative">
+            <div class="story-wrapper vert-horiz-center" id="tallest-node">
               <div class="our-story-header">Our Story</div>
               <div class="est-header">&bull;EST 1985&bull;</div>
               <div class="family-owned-header">Family owned and made in Marin</div>
@@ -103,7 +103,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-12 story-col">
+          <div class="col-md-6 col-sm-12 col-xs-12 story-col" id="veggie-girl-wrapper">
             <img src="img/Girl_VegetableBasket.jpg" class="veggie-girl" />
           </div>
         </div>
@@ -160,9 +160,21 @@
     <script src="js/jquery.fittext.js"></script>
     <script src="js/jquery.matchHeight-min.js"></script>
     <script>
-    $(function() {
-      $('.story-col').matchHeight();
-    });
+      $(function() {
+        $('.story-col').matchHeight({byRow: false});
+      });
+      var $tallestNode = $('#tallest-node');
+      var $heightCheck = $('#height-check');
+      var $imageNode = $($('.veggie-girl')[0]);
+      var checkForTallestColumn = function() {
+        if ($tallestNode.height() + 80 > $imageNode.height()) {
+          $('.story-col').css('height', $tallestNode.height() + 80);
+        }
+      }
+      checkForTallestColumn();
+      $.fn.matchHeight._afterUpdate = function(event, groups) {
+          checkForTallestColumn();
+      }
     </script>
     <script src="js/wow.min.js"></script>
 

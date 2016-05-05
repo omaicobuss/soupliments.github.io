@@ -652,8 +652,8 @@ footer {
   padding-left: 40px;
   padding-right: 40px;
   font-family: "BrandonPrinted2";
-  padding-top: 20px;
-  padding-bottom: 32px;
+  padding-top: 30px;
+  padding-bottom: 26px;
   background-size: cover;
   height: 100%;
   background-repeat-y: no-repeat;
@@ -743,6 +743,8 @@ footer {
   transform: translate(-50%, -50%);
   width: 100%;
   padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .description-intro {
   text-transform: uppercase;
@@ -763,12 +765,14 @@ footer {
   transform: translate(-50%, -50%);
   width: 100%;
   padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .serving-sizes-header, .serving-suggestions-header {
   font-weight: bold;
 }
 .single-product-node {
-  height: 447px;
+  /*height: 447px;*/
 }
 
 @media(max-width:900px) {
@@ -923,6 +927,9 @@ footer {
   margin-bottom: 10px;
   font-size: 16px;
 }
+.products {
+  padding-top: 20px;
+}
 @media(max-width: 1000px) {
   .story-fresh {
     width: 80%;
@@ -932,6 +939,12 @@ footer {
   }
 }
 @media(max-width: 500px) {
+  #veggie-girl-wrapper {
+    max-height: 400px!important;
+  }
+  .story-wrapper {
+    width: 80%;
+  }
   .story-fresh {
     width: 94%;
     font-size: 25px;
