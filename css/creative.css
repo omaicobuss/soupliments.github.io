@@ -1054,10 +1054,11 @@ footer {
   margin-top: 0;
 }
 .mg-tagline {
-  margin-bottom: 0;
+  margin-bottom: 20px;
   color: #7F4098;
   font-weight: bold;
   font-size: 22px;
+  margin-top: 40px;
 }
 #all-location-container {
   position: relative;;
@@ -1115,4 +1116,31 @@ footer {
   top: 0;
   height: 50px;
   width: 100%;
+}
+#bs-example-navbar-collapse-1 a:hover {
+  color: #7F4098;
+}
+.all-products-button {
+  border: 3px solid #7F4098;
+  /*color: #7F4098;*/
+  background: #7F4098;
+  opacity: .9;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  /*background-color: #7F4098;*/
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 38px;
+}
+.all-products-button:hover {
+  background-color: white;
+  color: #7F4098;
 }
