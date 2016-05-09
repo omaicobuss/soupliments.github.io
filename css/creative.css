@@ -1051,4 +1051,57 @@ footer {
 }
 .find-store-header {
   text-align: center;
+  margin-top: 0;
+}
+.mg-tagline {
+  margin-bottom: 0;
+  color: #7F4098;
+  font-weight: bold;
+  font-size: 22px;
+}
+#all-location-container {
+  position: relative;;
+}
+#find-store-background {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  /*content: '';*/
+  display: block;
+  /*position: absolute;*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /*opacity: 0.2;*/
+  background-image: url('../img/Lettuce_Crop_New.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#find-store-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.location-header {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.time-wrapper {
+  /*margin-right: 10px;*/
+  width: 96px;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+.day-of-week {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+.location-link-header {
+  margin-top: 6px;
 }
