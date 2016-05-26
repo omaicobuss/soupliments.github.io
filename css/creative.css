@@ -217,7 +217,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/Farm_Hero.jpg);
+    background-image: url('../img/Farm_Hero.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -567,7 +567,7 @@ body {
   background: rgba(0,0,0,.4);
 }
 #testimonial-background {
-  background-image: url('../img/Ingredients_Testimonial.jpg');
+  background-image: url('../img/Farm_Hero_OLD2.jpg');
   background-size: cover;
   width: 100vw;
   text-align: center;
